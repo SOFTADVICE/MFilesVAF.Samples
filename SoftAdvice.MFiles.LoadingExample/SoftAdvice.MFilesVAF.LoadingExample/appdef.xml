@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application
+			type="server-application"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-server-v3.xsd">
+  <guid>ac10c394-6d11-435d-8bfe-a364eb3ddd0e</guid>
+  <name>SoftAdvice.MFilesVAF.LoadingExample</name>
+  <description></description>
+  <publisher>SoftAdvice</publisher>
+  <version>0.1</version>
+  <copyright></copyright>
+  <required-mfiles-version>22.3.0.0</required-mfiles-version>
+  <multi-server-compatible>false</multi-server-compatible>
+  <extension-objects>
+    <extension-object>
+      <name>SoftAdvice.MFilesVAF.LoadingExample</name>
+      <assembly>SoftAdvice.MFilesVAF.LoadingExample.dll</assembly>
+      <class>SoftAdvice.MFilesVAF.LoadingExample.VaultApplication</class>
+      <installation-method>Install</installation-method>
+      <uninstallation-method>Uninstall</uninstallation-method>
+      <initialization-method>Initialize</initialization-method>
+      <uninitialization-method>Uninitialize</uninitialization-method>
+      <start-operations-method>StartOperations</start-operations-method>
+    </extension-object>
+  </extension-objects>
+</application>
