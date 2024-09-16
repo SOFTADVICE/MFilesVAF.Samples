@@ -5,7 +5,7 @@ async function OnNewDashboard(dashboard) {
 
 		console.log("Dashboard " + id + " has started")
 
-		for (var i = 0; i < 10; i++) {
+		for (var i = 0; i < 100; i++) {
 			dashboard.ShellFrame.ShellUI.Vault.VaultExtensionMethodsOperations.RunExtensionMethod({
 				method_name: "SA.LoadingExample.VEM.Loading",
 				input: i.toString()
